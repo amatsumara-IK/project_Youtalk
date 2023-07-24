@@ -1,0 +1,639 @@
+/* Шапка сайта */
+
+.header {
+    display: flex;
+    min-height: 76px;
+    margin: 0;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-bottom: 1px solid #EFF5FB;
+}   
+
+.header__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.header__link {
+    color: #333333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color:rgb(39, 103, 171);
+}
+
+.header__btn {
+    border-radius: 4px;
+    background: #E3F5F5;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    color: #03B2A5;
+    text-align: center;
+    padding: 14px 20px;
+    width: 190px;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+.header__btn:hover {
+    background-color: #56c9c9;
+    color: #fff;
+}
+
+ /* Значок стрелочки */
+
+.arrow {
+    border: solid #333333;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0 0 2px 5px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .arrow-nav {
+    border: solid #333333;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+    margin: 0 3px 1px 3px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+/* Main */
+/* Информация о навигации */
+
+.main__navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.main__navigation_info {
+    justify-content: center;
+    width: 1200px;
+       
+}
+
+.main__navigation_info_real {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+    cursor: pointer;
+
+    
+
+}
+
+/* main */
+/* Тело блога */
+
+.main__h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main__h1_block {
+    justify-content: center;
+    width: 1200px;
+   
+}
+
+.main__h1_real {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    
+}
+
+.main__categories {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 32px 139px 24px 120px;
+    color: #333333;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main__categories p {
+    border-radius: 24px;
+    border: 1px solid #C1C5CD;
+    padding: 8px;
+    margin: 0 0 0 8px;
+    cursor: pointer;
+}
+
+.main__categories p:hover {
+    border: 2px solid rgb(39, 103, 171);
+}
+
+.main__categories_3 > p {
+    border: 2px solid #16C8BB;
+    background: #F9FDFD;
+}
+
+
+/* hero block 1 */
+/* Первый блок содержимого блога */
+
+.hero,
+.hero-add-1,
+.hero-add-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.hero__infoblock_1,
+.hero__infoblock_2 {
+    max-height: 499px;
+    max-width: 588px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+    
+
+}
+
+.hero__infoblock_1_over,
+.hero__infoblock_2_over,
+.hero-add-1__infoblock_1_over,
+.hero-add-1__infoblock_2_over,
+.hero-add-1__infoblock_3_over,
+.hero-add-2__infoblock_1_over,
+.hero-add-2__infoblock_2_over,
+.hero-add-2__infoblock_3_over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+}
+
+.hero__infoblock_1_over > p,
+.hero__infoblock_2_over > p,
+.hero-add-1__infoblock_1_over > p,
+.hero-add-1__infoblock_2_over > p,
+.hero-add-1__infoblock_3_over > p,
+.hero-add-2__infoblock_1_over > p,
+.hero-add-2__infoblock_2_over > p,
+.hero-add-2__infoblock_3_over > p {
+    border-radius: 24px;
+    border: 1px solid #C1C5CD;
+    background: rgba(255, 255, 255, 0.70);
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 8px;
+    margin: 8px 0 0 8px;
+}
+
+.hero__infoblock_1_img,
+.hero__infoblock_2_img,
+.hero-add-1 img,
+.hero-add-2 img {
+    border-radius: 16px 16px 0 0;
+    padding: 0;
+}
+
+.hero__infoblock_1_1,
+.hero__infoblock_2_1,
+.hero-add-1__infoblock_1_1,
+.hero-add-1__infoblock_2_1,
+.hero-add-1__infoblock_3_1,
+.hero-add-2__infoblock_1_1,
+.hero-add-2__infoblock_2_1,
+.hero-add-2__infoblock_3_1 {
+    border-radius: 0 0 16px 16px;
+    border: 1px solid #C1C5CD;
+    margin-top: -4px;
+    padding: 0;
+}
+
+.hero__infoblock_1_1_heading,
+.hero__infoblock_2_1_heading,
+.hero-add-1__infoblock_1_1_heading,
+.hero-add-1__infoblock_2_1_heading,
+.hero-add-1__infoblock_3_1_heading,
+.hero-add-2__infoblock_1_1_heading,
+.hero-add-2__infoblock_2_1_heading,
+.hero-add-2__infoblock_3_1_heading {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    color: #333333;
+    padding: 16px 31px 0px 16px;
+    margin: 0;
+   
+
+}
+
+.hero__infoblock_1_1_author,
+.hero__infoblock_2_1_author,
+.hero-add-1__infoblock_1_1_author,
+.hero-add-1__infoblock_2_1_author,
+.hero-add-1__infoblock_3_1_author,
+.hero-add-2__infoblock_1_1_author,
+.hero-add-2__infoblock_2_1_author,
+.hero-add-2__infoblock_3_1_author {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #494949;
+    padding: 4px 220px 8px 16px;
+    white-space:nowrap;
+    margin: 0;
+
+    
+
+}
+
+.hero__infoblock_1_1_text,
+.hero__infoblock_2_1_text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #494949;
+    padding: 0.5rem 1rem 0 1rem;
+    margin: 0;
+    
+
+}
+
+.hero__infoblock_1_1_date,
+.hero__infoblock_2_1_date{
+    color: #868686;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    padding: 5.875rem 511px 16px 16px;
+    margin: 0;
+}
+
+/* Дополнительный блок контента 1/2 hero-add (часть селекторов вписана в раздел hero)*/
+
+.hero-add-1__infoblock_1,
+.hero-add-1__infoblock_2,
+.hero-add-1__infoblock_3  {
+    max-height: 475px;
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-add-1__infoblock_1_1_text,
+.hero-add-1__infoblock_2_1_text,
+.hero-add-1__infoblock_3_1_text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #494949;
+    padding: 0 16px 18px 16px;
+    margin: 0;
+}
+
+.hero-add-1__infoblock_1_1_date,
+.hero-add-1__infoblock_2_1_date,
+.hero-add-1__infoblock_3_1_date {
+    color: #868686;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    padding: 1.5rem 511px 1rem 1rem;
+    margin: 0;
+}
+
+
+/* Дополнительный блок контента 2/2 hero-add */
+
+.hero-add-2__infoblock_1,
+.hero-add-2__infoblock_2,
+.hero-add-2__infoblock_3  {
+    max-height: 475px;
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+    overflow: visible;
+}
+
+.hero-add-2__infoblock_1_1_text,
+.hero-add-2__infoblock_2_1_text,
+.hero-add-2__infoblock_3_1_text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #494949;
+    padding: 0 16px 18px 16px;
+    margin: 0;
+}
+
+.hero-add-2__infoblock_1_1_date,
+.hero-add-2__infoblock_2_1_date,
+.hero-add-2__infoblock_3_1_date {
+    color: #868686;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    padding: 1.5rem 511px 1rem 1rem;
+    margin: 0;
+}
+
+/* Кнопка после контента */
+
+.main__more_btn {
+    border-radius: 4px;
+    background: #35B3A9;
+    color: #fff;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 14px 20px;
+    width: 190px;
+    min-height: 20px;
+    cursor: pointer;
+    
+}
+
+.main__more_btn:hover {
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    from {
+        background-color: #30ddcf;
+    }
+    25% {
+        background-color: #2a94c2;
+    }
+    50% {
+        background-color: #2a62c2;
+    }
+    75% {
+        background-color: #5f2ac2;
+    }
+    to {
+        background-color: #9f2ac2;
+    }
+}
+
+.main__more {
+    display: flex;
+    width: 182px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+
+/* Подвал */
+
+footer {
+    background: #2963A3;
+    min-width: 100%;
+    height: 302px;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: auto;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 5.8125rem;
+
+
+}  
+
+.footer__list_1,
+.footer__list_2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-family: Montserrat;
+    font-weight: 500;
+    list-style: none;
+}
+
+.footer__link {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 30.375rem;
+}
+
+.footer__h4 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__info {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    opacity: 0.69;
+}
+
+.footer__sub_form {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__sub_add-email {
+    width: 24rem;
+    height: 2.75rem;
+    border-radius: 4px;
+    border: 1px solid rgba(157, 157, 157, 0.20);
+    background: #FFF;
+    padding-left: 1rem;
+
+    color: #9D9D9D;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer__sub_btn {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+    display: inline-flex;
+    vertical-align:middle;
+    background: #16C8BB;
+    height: 3rem;
+    padding: 14px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    margin-left: -0.3rem;
+}
+.footer__sub_btn:hover {
+    background-color: #4ebcb4;
+}
+
+.footer__skolkovo {
+    padding-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer__skolkovo a {
+    padding-right: 0.5rem;
+
+}
+
+.footer__social a {
+    padding-right: 1rem;
+}
+
+
+
+/* Саааамая последня часть подвала */
+
+.footer__line {
+    width: 1200px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.3;
+    background: #9D9D9D;
+    margin: 0 auto;
+}
+
+.footer__about {
+    display: flex;
+    justify-content: start;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+
+}
+
+.footer__about_list {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+    gap: 3rem;
+}
+
+.footer__about_link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.699;
+    color: #fff;
+}
+
+.footer__about_link:hover {
+    opacity: 100;
+}
+
