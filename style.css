@@ -51,6 +51,8 @@
     color: #fff;
 }
 
+
+
  /* Значок стрелочки */
 
 .arrow {
@@ -637,3 +639,32 @@ footer {
     opacity: 100;
 }
 
+
+
+/* Мобильная адаптация */
+
+@media screen and (max-width: 320px){
+    .header {
+        display: flex;
+        min-height: 56px;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid red;
+        /* border-bottom: 1px solid #EFF5FB; */
+    }   
+
+    .header__nav {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .header__btn {
+        display: none;
+        visibility: hidden;
+
+
+    }
+    
+
+}
