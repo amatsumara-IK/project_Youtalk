@@ -669,7 +669,7 @@ footer {
 */
 
 @media screen and (max-width: 320px){
-    html {
+    body {
         overflow-x: hidden;
     
     }
@@ -1331,7 +1331,7 @@ footer {
 */
 
 @media screen and (max-width: 431px){
-    html {
+    body {
         overflow-x: hidden;
     
     }
@@ -1864,7 +1864,7 @@ footer {
         line-height: 18px;
         letter-spacing: 0.25px;
         opacity: 0.69;
-        padding-right: 2rem;
+        margin-right: 2rem;
     }
 
     .footer__sub_form {
